@@ -1,0 +1,122 @@
+footer {
+  position: relative;
+}
+
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(26, 26, 26, 1) 40%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4rem 1rem;
+}
+
+.footer__img {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.footer__content {
+  color: #7a7a7a;
+  gap: 3rem;
+  padding: 1rem 0;
+}
+
+.footer__content::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 36px;
+  background: url(../img/detail.svg) no-repeat center;
+  position: absolute;
+  right: 4%;
+  top: -20px;
+}
+
+.footer__contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  color: #7a7a7a;
+  margin-bottom: 1rem;
+}
+
+.footer__email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  width: fit-content;
+  padding: 1rem 2rem;
+  color: #7a7a7a;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+
+.footer__btn--whatsapp {
+  /* color: #7A7A7A;
+  border-color: #7A7A7A; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  width: fit-content;
+  padding: 0.6rem 1.2rem;
+  color: #25d366;
+  border-bottom: 1px solid #25d366;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.footer__btn--whatsapp:hover {
+  color: #1A1A1A;
+  background: linear-gradient(180deg, rgba(37,211,102,1) 0%, rgba(21,117,57,1) 100%);
+  border-radius: .2rem;
+  transition: .3s;
+}
+
+.footer__btn--whatsapp i {
+  font-size: 1.4rem;
+}
+
+.footer__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.footer__menu li a {
+  cursor: pointer;
+  color: #7a7a7a;
+}
+
+.footer__menu li a:hover {
+  color: #25d366;
+  transition: 0.2s;
+}
+
+.footer__direitos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding-top: 2rem;
+}
+
+.footer__direitos span {
+  color: #7a7a7a;
+  font-size: 0.8rem;
+}

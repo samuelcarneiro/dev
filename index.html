@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel|Carneiro</title>
+
+    <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="menu">
+                <div class="logo">
+                    <img src="./assets/img/logo_light.svg" alt="">
+                </div>
+
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="./index.html">Início</a></li>
+                        <li><a href="#sobremim">Sobre mim</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#contato" class="btn__contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Icon Menu Mobile -->
+                <div class="menu-mobile-icon">
+                    <button onclick="mostraMenu()">
+                        <img class="menu-icon" src="./assets/img/menu_mobile.svg" alt="Icon menu mobile">
+                    </button>
+                </div>
+                <!-- ./Icon Menu Mobile -->
+            </nav>
+
+            <div class="menu-mobile">
+                <ul>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="#sobremim">Sobre mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <!-- ./mobile-menu -->
+        </div>
+        <!-- ./container -->
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="banner" id="banner">
+                <figure>
+                    <img src="./assets/img/programmer-amico-green.png" class="banner__img" alt="">
+                    <figcaption class="banner__img__legend"><a href="https://storyset.com/technology">Technology illustrations by Storyset</a></figcaption>
+                </figure>
+                <div class="banner__content">
+                    <p class="banner__text">Olá pessoal! Sou</p>
+                    <h1 class="banner__title">Desenvolvedor<br /> Front-end <i class="bi bi-code-slash icon_code"></i></h1>
+                    <p class="banner__text">Desenvolvo aplicações e sites exclusivos, adaptados à sua marca dando um up na sua presença digital.</p>
+                    <ul class="banner__links">
+                        <li>
+                            <a href="https://github.com/samuelcarneiro" target="_blank">Github <i class="bi bi-arrow-up-right-circle"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/samuel-carneiro-ab4ba5277/" target="_blank">Linkedin <i class="bi bi-arrow-up-right-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- ./banner -->
+
+            <section class="sobremim" id="sobremim">
+                <div>
+                    <h2>Sobre mim</h2>
+
+                    <div class="sobremim__content">
+                        <p class="sobremim__text">Sou um desenvolvedor front-end adimirador de experiências digitais que facilitam a vida das pessoas. <em>Estou no início da minha jornada</em>, já desenvolvi projetos pessoais para solidificar minhas habilidades em <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong> e <strong>UI Design</strong>.</p>
+                        <p class="sobremim__text">Tenho facilidade em transformar um design em realidade, construo sites e aplicações web do zero entregando <strong>interfaces intuitivas</strong>, designs atraentes e que proporcionem uma ótima experiência para o usuário.</p>
+                        <p class="sobremim__text">Acredito que a beleza e a funcionalidade podem andar juntas. Me dedico a criar <strong>soluções digitais</strong> que não apenas atendam às necessidades dos meus clientes, mas que também inspirem e engajem seus usuários.</p>
+                        <p class="sobremim__text">Entre em contato comigo e vamos conversar sobre como podemos construir algo juntos!</p>
+
+                        <!-- Botão enviar mensagem pelo WhatsApp -->
+                        <a href="https://wa.me/557592208272" class="sobremim__btn btn__whatsapp" target="_blank">
+                            <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <figure>
+                    <img src="./assets/img/sobremim-amico.svg" class="sobremim__img" alt="">
+                    <figcaption class="sobremim__img__legend"><a href="https://storyset.com/web">Web illustrations by Storyset</a></figcaption>
+                </figure>
+            </section>
+            <!-- ./sobremim -->
+
+            <section class="projetos" id="projetos">
+                <h2>Projetos</h2>
+
+                <div class="projetos__content">
+                    <p class="projetos__text">Desenvolvo atualmente, pequenos projetos utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>Javascript</strong> utilizando as melhores práticas. Veja alguns deles com mais detalhes...</p>
+
+                    <div class="projetos__cards">
+                        <div class="projetos__card">
+                            <div class="projetos__card__content">
+                                <img class="projeto__card__img" src="./assets/img/preview_meus_links.jpg" alt="">
+                                <h3 class="projetos__card__title">Meus links</h3>
+                                <p class="projetos__card__text">Projeto desenvolvido como meu primeiro portfólio e como forma de prática para consolidação dos meus conhecimentos em desenvolvimento web e responsividade.</p>
+                                <ul class="projetos__card__technology">
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JAVASCRIPT</li>
+                                </ul>
+                                <ul class="projetos__card__links">
+                                    <li>
+                                        <a href="https://github.com/samuelcarneiro/meus-links" target="_blank">
+                                            <i class="bi bi-github"></i> Github
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://samuelcarneiro.github.io/meus-links/" target="_blank">
+                                            <i class="bi bi-globe"></i> Site
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- ./card meus links -->
+
+                        <div class="projetos__card">
+                            <div class="projetos__card__content">
+                                <img class="projeto__card__img" src="./assets/img/preview_tela_login_sistema_chamados_softwaredata.jpg" alt="">
+                                <h3 class="projetos__card__title">Tela de login GLPI - SoftwareDATA</h3>
+                                <p class="projetos__card__text">A estilização da tela de login do sistema de chamados técnicos foi uma iniciativa para modernizar a interface, melhorando a experiência dos usuários e agilizando a acesso ao sistema.</p>
+                                <ul class="projetos__card__technology">
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                </ul>
+                                <ul class="projetos__card__links">
+                                    <li>
+                                        <abbr title="Projeto interno da empresa. Não há repositório.">
+                                            <a href="#" class="btn--disabled">
+                                                <i class="bi bi-github"></i> Github
+                                            </a>
+                                        </abbr>
+                                    </li>
+                                    <li>
+                                        <abbr title="Link interno da empresa.">
+                                            <a href="#" class="btn--disabled">
+                                                <i class="bi bi-globe"></i> Site
+                                            </a>
+                                        </abbr>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- ./card Tela login -->
+
+                        <div class="projetos__card">
+                            <div class="projetos__card__content">
+                                <img class="projeto__card__img" src="./assets/img/preview_em_breve.jpg" alt="">
+                                <h3 class="projetos__card__title">Em desenvolvimento...</h3>
+                                <p class="projetos__card__text">...<br/>...<br/>...<br/>...<br/></p>
+                                <ul class="projetos__card__technology tag--disabled">
+                                    <li>...</li>
+                                    <li>...</li>
+                                    <li>...</li>
+                                </ul>
+                                <ul class="projetos__card__links">
+                                    <li>
+                                        <a href="#" class="btn--disabled">
+                                            <i class="bi bi-github"></i> Github
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="btn--disabled">
+                                            <i class="bi bi-globe"></i> Site
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- ./card Em breve...-->
+                    </div>
+                </div>
+            </section>
+            <!-- ./projetos -->
+
+            <section class="habilidades" id="habilidades">
+                <h2>Habilidades</h2>
+
+                <div class="habilidades__content">
+                    <p class="habilidades__text"></p>
+                    <ul class="habilidades__list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JAVASCRIPT</li>
+                        <li>GIT</li>
+                        <li>GITHUB</li>
+                        <li>MYSQL</li>
+                        <li>UI DESIGN</li>
+                        <li>NODEJS</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- ./habilidades -->
+
+            <section class="contato" id="contato">
+                <div>
+                    <h2>Contato</h2>
+
+                    <div class="contato__content">
+                        <p class="contato__text">Você pode entrar em contato comigo através do <strong>e-mail</strong> abaixo ou, se preferir, envie uma <strong>mensagem pelo Whatsapp</strong>. Será um prazer atendê-lo(a)!</p>
+                        <p class="contato__text">Vamos conversar sobre como podemos construir algo juntos!</p>
+
+                        <div class="contato__meios">
+                            <!-- Botão enviar mensagem pelo WhatsApp -->
+                            <a href="https://wa.me/557592208272" class="btn__whatsapp" target="_blank">
+                                <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                            </a>
+                            <!-- E-mail -->
+                            <p class="e-mail"><i class="bi bi-envelope-at"></i> samuelcarneiro.al@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <figure>
+                    <img src="./assets/img/email-campaign-amico.svg" class="contato__img" alt="">
+                    <figcaption class="contato__img__legend"><a href="https://storyset.com/communication">Communication illustrations by Storyset</a></figcaption>
+                </figure>
+            </section>
+            <!-- ./contato -->
+        </div>
+        <!-- ./container -->
+    </main>
+
+    <footer>
+        <div class="footer">
+            <img src="./assets/img/logo_dark.svg" class="footer__img" alt="">
+
+            <div class="footer__content">
+                <div class="footer__contato">
+                    <h3 class="footer__title">Contato</h3>
+                    <p class="footer__email"><i class="bi bi-envelope-at"></i> samuelcarneiro.al@gmail.com</p>
+                    <a href="https://wa.me/557592208272" class="footer__btn--whatsapp" target="_blank">
+                        <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+
+                <ul class="footer__menu">
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="#sobremim">Sobre mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__direitos">
+                <span><i class="bi bi-code-slash icon_code"></i></span>
+                <span>Alguns direitos reservados &copy; Samuel Carneiro - <span id="mostrarAnoAtual"></span></span>
+                <span>Illustrations by Storyset</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>

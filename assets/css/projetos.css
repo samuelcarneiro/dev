@@ -1,0 +1,95 @@
+.projetos {
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.projetos__text {
+  width: 60ch;
+}
+
+.projetos__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.projetos__card {
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px -1px 18px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px -1px 18px 0px rgba(0, 0, 0, 0.28);
+}
+
+.projetos__card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.projeto__card__img {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+.projetos__card__text {
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  color: #494949;
+}
+
+.projetos__card__technology {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.projetos__card__technology li {
+  background-color: #ffffff;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.projetos__card__links {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.projetos__card__links li {
+  width: 50%;
+  text-align: center;
+}
+
+.projetos__card__links li a {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.projetos__card__links li a i {
+  font-size: 1.2rem;
+}
+
+.projetos__card__links li a:hover {
+  background-color: #25d366;
+  border-color: #25d366;
+  transition: 0.2s;
+}
+
+.projetos__card__links .btn--disabled {
+  background-color: #E5E5E5;
+  color: #CFCFCF;
+  border-color: #CFCFCF;
+  pointer-events: none; /*Desabilita os efeitos e eventos de botão ou link*/
+}
+
+.tag--disabled li {
+  color: #fff;
+}

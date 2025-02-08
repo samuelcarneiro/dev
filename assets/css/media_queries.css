@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 80vw;
+  }
+
+  .banner {
+    gap: 0.4rem;
+  }
+
+  .banner__title {
+    font-size: 2rem;
+  }
+
+  .banner__links li a {
+    font-size: .8rem;
+  }
+
+  .sobremim {
+    gap: 0;
+  }
+
+  .contato__meios {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .e-mail {
+    padding: 1rem 0;
+  }
+
+  .contato img {
+    margin: 0;
+  }
+
+  .btn__whatsapp {
+    width: max-content;
+  }
+
+  .footer__img {
+    max-width: 45%;
+    min-width: 40%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contato__meios {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .btn__whatsapp {
+    width: max-content;
+  }
+  
+  .sobremim__img {
+    width: 320px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 95vw;
+    margin: 0 auto;
+  }
+
+  /* ##### HEADER ##### */
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile-icon {
+    display: block;
+  }
+
+  .menu-mobile-icon button {
+    background-color: transparent;
+    border: none;
+    scale: 2.5;
+    margin-right: 1rem;
+  }
+
+  .menu-mobile ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu-mobile ul li {
+    background-color: #f7f7f7;
+    display: block;
+    margin-bottom: 0.4rem;
+  }
+
+  .menu-mobile ul li a {
+    display: block;
+    padding: 1rem 0;
+    border-radius: 0.4rem;
+    color: #1a1a1a;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .menu-mobile ul li a:hover {
+    color: #25d366;
+    background-color: #1a1a1a;
+  }
+
+  .open {
+    display: block;
+  }
+
+  /* ##### BANNER ##### */
+  .banner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 1rem;
+  }
+
+  .sobremim__img,
+  .banner__img {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+
+  .sobremim__img__legend a,
+  .banner__img__legend a {
+    font-size: 0.5rem;
+    text-align: right;
+    color: #999;
+  }
+
+  .banner__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .icon_code {
+    color: #25d366;
+    font-size: 2rem;
+  }
+
+  .banner__text {
+    line-height: 1.5rem;
+    max-width: 40ch;
+  }
+
+  .banner__title {
+    font-size: 2rem;
+    border-left: 4px solid #25d366;
+    padding-left: 0.4rem;
+  }
+
+  .banner__links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  /* ##### SOBRE MIM ##### */
+  .sobremim {
+    background-color: #f7f7f7;
+    flex-direction: column;
+  }
+
+  .sobremim__text {
+    width: 100%;
+  }
+
+  /* ##### PROJETOS ##### */
+  .projetos__text {
+    width: 100%;
+  }
+
+  .projetos__cards {
+    flex-direction: column;
+  }
+
+  /* ##### CONTATO ##### */
+  .contato,
+  .contato__meios {
+    flex-direction: column;
+  }
+
+  /* ##### FOOTER ##### */
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__img {
+    min-width: 50%;
+  }
+}
+
+/* Telas com resolução abaixo de 380px (Iphone SE) */
+@media screen and (max-width: 380px) {
+  .footer__direitos span {
+    font-size: 0.6rem;
+  }
+
+  .footer__menu li a {
+    font-size: 0.8rem;
+  }
+
+  .habilidades__list {
+    gap: 1rem;
+  }
+}

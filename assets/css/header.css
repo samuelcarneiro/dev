@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* HEADER > MENU */
+.menu-mobile {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+.menu-desktop {
+  display: flex;
+  align-items: center;
+}
+
+.menu-desktop ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu-desktop li a {
+  color: #1a1a1a;
+}
+
+.menu-desktop li a:hover {
+  color: #25d366;
+  transition: 0.3s;
+}
+
+.menu-mobile-icon {
+  display: none;
+}
+
+.btn__contato {
+  border: 2px solid #1A1A1A;
+  border-radius: 0.4rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.btn__contato:hover {
+    border-color: #25d366;
+    color: #25d366;
+    transition: .2s;
+}

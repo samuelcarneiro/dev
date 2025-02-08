@@ -1,0 +1,39 @@
+.contato {
+  color: #1a1a1a;
+  padding: 4rem 1rem;
+}
+
+.contato img {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  min-width: 300px;
+}
+
+.contato__text {
+  width: 100%;
+}
+
+.contato__meios {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.e-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  width: fit-content;
+  padding: 1rem;
+  color: #1A1A1A;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: .4rem;
+}
+
+.e-mail i {
+  font-size: 1.6rem;
+}

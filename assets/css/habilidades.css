@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.habilidades {
+  background-color: #F7F7F7;
+  padding: 4rem 1rem;
+}
+
+.habilidades__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.habilidades__list li:hover {
+  background-color: #25D366;
+  transition: .3s;
+}
+
+.habilidades__list li {
+  background-color: #FFF;
+  padding: 1rem 2rem;
+  border-radius: .4rem;
+  width: fit-content;
+}
